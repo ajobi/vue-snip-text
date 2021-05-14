@@ -1,10 +1,5 @@
 import { defaultOptions } from '../defaultOptions'
-
-const supportsCSSMethod = () =>
-  typeof CSS !== 'undefined' &&
-  CSS.supports('display', '-webkit-box') &&
-  CSS.supports('-webkit-line-clamp', '3') &&
-  CSS.supports('-webkit-box-orient', 'vertical')
+import { supportsCSSMethod } from 'js-snip'
 
 export const normalizeSnipMethod = (state, snipMethod) => {
   if (!supportsCSSMethod()) {

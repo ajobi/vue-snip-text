@@ -1,5 +1,5 @@
 import { getSnipText } from '../../../src/element/element.snip'
-import { elementLines } from '../../../src/element/element.lines'
+import { getLines } from 'js-snip'
 import { defaultOptions as options } from '../../../src/defaultOptions'
 
 const getMockState = (element, maxLines = 3, snipMethod = 'css') => {
@@ -27,7 +27,7 @@ describe('snipText', () => {
 
       snipText(paragraph)
 
-      expect(elementLines(paragraph)).to.equal(2)
+      expect(getLines(paragraph)).to.equal(2)
     })
   })
 
