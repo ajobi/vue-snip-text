@@ -5092,6 +5092,11 @@ js-levenshtein@^1.1.3:
   resolved "https://registry.yarnpkg.com/js-levenshtein/-/js-levenshtein-1.1.6.tgz#c6cee58eb3550372df8deb85fad5ce66ce01d59d"
   integrity sha512-X2BB11YZtrRqY4EnQcLX5Rh373zbK4alC1FW7D7MBhL2gtcC17cTnr6DmfHZeS0s2rTHjUTMMHfG7gO8SSdw+g==
 
+js-snip@^1.0.0-beta.1:
+  version "1.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/js-snip/-/js-snip-1.0.0-beta.1.tgz#e08712605be28859c43d02d5d56c070c2f7d9e2e"
+  integrity sha512-0AQjnYvWVSwFnaWunI7vjg21AOkwp5uLy2SPkwbUrgVF4yAZrOM3MEoedXlsXLRoTnexlwqVJdeb9N+EPCCsJQ==
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
