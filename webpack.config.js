@@ -34,7 +34,7 @@ module.exports = (env, args) => {
       })
     ],
     devServer: {
-      contentBase: testDevServer ? 'server/test' : args.demo ? 'docs' : 'server/dev',
+      contentBase: testDevServer ? 'server/test' : 'docs',
       port: testDevServer ? 9001 : 9000,
       open: !testDevServer
     }
