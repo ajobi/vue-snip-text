@@ -1,6 +1,7 @@
 {
   "name": "vue-snip",
   "version": "1.2.0",
+  "description": "Vue.js directive that clamps the content of a text element if it exceeds specified number of lines.",
   "author": "Andrej Bilec <andrej.bilec@gmail.com>",
   "license": "MIT",
   "scripts": {
